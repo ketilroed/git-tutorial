@@ -7,7 +7,7 @@ To list folders use: *ls*
 
 
 
-## Example of how to create a git repository in an existing folder. 
+## Example of how to create a git repository in an existing folder.
 
 For this example I will be creating a git repository inside a folder called ‘testgit’ which is located the following directory:  /Users/ketilroe/workspace
 
@@ -23,12 +23,12 @@ Add any files which is in the folder to the git repository
 
 *git add -A*
 
-Commit the the changes/new files. This command commits the tracked changes an prepares them to be pushed to a remote repository.
+Commit the changes/new files. This command commits the tracked changes an prepares them to be pushed to a remote repository.
 
 *git commit -am “Comment of choice”*
 
 
-You know need to create a new project on Github. On GitHub press ‘Start a project’. Choose a repository name, preferably the same as your folder name (but not necessary). Make sure to leave the box for ‘Initiate this repository with a README’ unticked.  Press create repository. You will now be provided with a link that can be used to push your local copy of the repository to Github. A description to create a new repository from the command line (which we have done above), or push an existing repository from the command line is also provided. Since we already have create a repository we will do the latter:
+You now need to create a new project on Github. On GitHub press ‘Start a project’. Choose a repository name, preferably the same as your folder name (but not necessary). Make sure to leave the box for ‘Initiate this repository with a README’ unticked.  Press create repository. You will now be provided with a link that can be used to push your local copy of the repository to Github. A description to create a new repository from the command line (which we have done above), or push an existing repository from the command line is also provided. Since we already have create a repository we will do the latter:
 
 *git remote add origin https://github.com/username/repository-name*
 
