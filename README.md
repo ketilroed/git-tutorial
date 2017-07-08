@@ -1,9 +1,9 @@
 
 ## Terminal commands
 
-To change folder use:  cd folder-name
+To change folder use:  *cd folder-name*
 
-To list folders use: ls
+To list folders use: *ls*
 
 
 
