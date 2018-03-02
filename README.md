@@ -15,6 +15,12 @@ Open the terminal window and navigate to the testgit folder:
 
 *cd workspace/testgit*
 
+
+Create a gitignore file to ignore inside the folder *testgit*,and add  *.DS_Store* to the file in order to ignore these files in Mac folders
+
+*touch .gitignore*
+*echo ".DS_STore" >> .gitignore*
+
 Create a new repository within this folder:
 
 *git init*
